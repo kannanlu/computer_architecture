@@ -16,6 +16,11 @@ private:
     int b;
 
 public:
+    foo2() {
+        cout << "Constructing "<< this <<endl; // "this" is the pointer to the instance object 
+        a = 0;
+        b= 0;
+    }
     void func()
     {
         cout << "a=" << a << ", b=" << b << endl
@@ -49,10 +54,13 @@ int main()
     cout << "a=" << refp->a << ", b=" << refp->b << endl
          << endl;
 
+    cout << endl;
     foo2 y;
-    y.a = 3;
-    y.b = 4;
-    y.func();
+
+    // foo2 y;
+    // y.a = 3;
+    // y.b = 4;
+    // y.func();
 
     return 0;
 }
