@@ -1,0 +1,46 @@
+# Compiled Object files
+*.o
+*.obj
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+bin/
+out/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Dependency directories
+deps/
+lib/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temp files
+*.swp
+*.swo
+*~
